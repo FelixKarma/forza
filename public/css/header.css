@@ -1,0 +1,90 @@
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #EC1D88;
+    font-size: 18px;
+    height: 89px;
+}
+
+.logo {
+    transform: translateY(30px);
+}
+
+.bar-search {
+    background: #FFFFFF;
+    border: 1px solid #6BBCEE;
+    border-radius: 6px;
+    width: 343px;
+    height: 38px;
+    position: relative;
+}
+.container_filter-icon {
+    border: 1px solid #6BBCEE;
+    width: 36px;
+    border-radius: 6px 0px 0px 6px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    bottom: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.filter-icon {
+    width: 60%;
+}
+
+.header__nav {
+    display: flex;
+    gap: 68px;
+}
+
+.header__container-avatar {
+    position: relative;
+    width: fit-content;
+    z-index: 2;
+}
+
+.avatar {
+    width: 52px;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.icon-deconnexion {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-inscription {
+    width: 52px;
+    height: 52px;
+    background: #6BBCEE;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container_right {
+    position: relative;
+    transform: translateY(40px);
+}
+
+.header__container_btn-inscription {
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+    left: 35px;
+}
