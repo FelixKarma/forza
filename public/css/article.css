@@ -1,10 +1,23 @@
-.page {
-    background: content-box url('/assets/img/background_article.png') no-repeat ;
-}
+
 .main {
     font-size: 15px;
     color: #fff;
+    position: relative;
 }
+
+.img_tache1 {
+    position: absolute;
+    right: 0px;
+}
+
+.img_tache2 {
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    z-index: -1;
+}
+
+
 
 .section_hero {
     height: fit-content;

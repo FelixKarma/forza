@@ -12,13 +12,13 @@
     <!-- fin -->
     <link rel="stylesheet" type="text/css" href="../public/css/base.css">
     <link rel="stylesheet" type="text/css" href="../public/css/header.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/article.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/FAQ.css">
     <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
-    <title>Article</title>
+    <title>FAQ</title>
 </head>
 
 <body class="page">
-    
+
     <header class="header">
         <a href="index.html">
             <img class="logo" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
@@ -28,12 +28,12 @@
                 <img class="filter-icon" src="../assets/img/filter_icon.svg" alt="recherche avancée">
             </div>
         </div>
-        <nav class="header__nav"> 
+        <nav class="header__nav">
             <a href="#">Accueil</a>
             <a href="#">Article</a>
             <a href="#">Véhicules</a>
             <a href="#">FAQ</a>
-        </nav>  
+        </nav>
         <div class="header__container_right">
             <div class="header__container-avatar">
                 <div class="avatar">
@@ -42,9 +42,9 @@
                     </a>
                 </div>
                 <div class="icon-deconnexion">
-                   <a href="#">
-                    <img src="../assets/img/deconnexion_icon.svg" alt="icon déconnexion">
-                   </a> 
+                    <a href="#">
+                        <img src="../assets/img/deconnexion_icon.svg" alt="icon déconnexion">
+                    </a>
                 </div>
             </div>
             <div class="header__container_btn-inscription">
@@ -58,46 +58,54 @@
     </header>
 
     <main class="main">
-        <img class="img_tache1" src="../assets/img/tache1_article.png" alt="">
+        <img class="img_tache_faq" src="../assets/img/tache_faq_background.jpg" alt="">
         <section class="section_hero">
-            <!-- généré content with JS -->
-            <article class="container_article">
-                <h1 class="title">Patch avril 2023</h1>
-                <p class="para1">Le studio Playground Games annonce un futur patch pour son jeu phare Forza Horizon 5, dont le déploiement est prévu pour le 25 avril 2023. La mise à jour prévoit, évidemment, diverses corrections de bugs, affectant certaines missions, les performances sur PC, ou certaines routes qui n'obtenaient pas le statut de découvertes.</p>
-                <div class="image_1">
-                    <img src="../assets/img/image1_article.png" alt="scène de forza horizon 5 sous la plus">
-                </div>
-                <p class="para2">Un nouveau patch vient d'être publié pour le jeu Forza Horizon 5, ce dernier pèse environ 2 Go et se téléchargera automatiquement par le biais du store de Microsoft ou de Steam.Le but est de corriger divers bugs, comme des soucis de passage de rapports en mode manuel, des plantages lors de l'activation de la technologie XeSS d'Intel...</p>
-                <div class="container_release">
-                    <div class="image_2">
-                        <img src="../assets/img/image2_article.png" alt="">
-                    </div>
-                    <div class="release">
-                        <h2 class="title_release">Forza Horizon 5 May 1st Update Release Notes</h2>
-                        <ul class="liste_release">
-                            <li>Fixed an issue where gears were not working correctly for players using manual shifting</li>
-                            <li>Fixed an issue with Horizon Open where sometimes leaderboards were not displaying results correctly</li>
-                            <li>[PC] Fixed an issue where changing Intel XeSS settings could result in a crash</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="image_3">
-                    <img src="../assets/img/image3_article.png" alt="reward cars">
-                </div>
-                <div class="bug">
-                    <!-- ajouter list depuis JS -->
-                    <h2 class="title_bug">Bugs corrigés</h2>
-                    <ul class="list_bug">
-                        <li>Correction d’un problème où parfois les défis hebdomadaires #ForzaThon étaient réinitialisés après le redémarrage du jeu</li>
-                        <li>Correction d’un problème où parfois les routes n’étaient pas marquées comme découvertes sur la carte</li>
-                        <li>Correction d’un problème avec l’hôtel des ventes où la recherche par « Type de voiture » ne pouvait renvoyer aucun résultat</li>
-                    </ul>
-                </div>
-            </article>
+            <h1 class="title1">FAQ</h1>
+            <div class="container_sub">
+                <p class="subtitle">Découvrez les réponses aux questions les plus fréquemment posées sur Forza Horizon 5
+                    et tirez le meilleur parti de votre expérience de jeu automobile.</p>
+            </div>
         </section>
-        <img class="img_tache2" src="../assets/img/tache2_article.png" alt="">
+        <div id="faqs_container">
+            
+        </div>
+        
+        <section class="section_question">
+            <div class="container_rep-q">
+                <div class="container_question">
+                    <div class="question">Qu'est-ce que Forza Horizon 5 ?</div>
+                    <div class="ctn_arrow-down">
+                        <img src="../assets/img/arrow-drop-down.svg" alt="arrow down">
+                    </div>
+                </div>
+                <div class="container_reponse">
+                    <div class="reponse">
+                        <p class="text_rep">Forza Horizon 5 est un jeu de course en monde ouvert qui propose une vaste
+                            sélection de voitures, des paysages spectaculaires et des courses palpitantes dans un
+                            environnement immersif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_question">
+            <div class="container_rep-q">
+                <div class="container_question">
+                    <div class="question">Qu'est-ce que Forza Horizon 5 ?</div>
+                    <div class="ctn_arrow-down">
+                        <img src="../assets/img/arrow-drop-down.svg" alt="arrow down">
+                    </div>
+                </div>
+                <div class="container_reponse">
+                    <div class="reponse">
+                        <p class="text_rep">Forza Horizon 5 est un jeu de course en monde ouvert qui propose une vaste
+                            sélection de voitures, des paysages spectaculaires et des courses palpitantes dans un
+                            environnement immersif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    
+
     <footer class="footer">
         <div class="container_footer">
             <a href="../index.html">
@@ -124,7 +132,7 @@
         </div>
         <p>© 2023 TeamDev. All Rights Reserved.</p>
     </footer>
-    
+
 </body>
 
 </html>
