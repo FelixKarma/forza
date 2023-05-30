@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/logo_carhorizon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/logo_carhorizon.svg">
+    <!-- fin -->
+    <link rel="stylesheet" type="text/css" href="../public/css/base.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/header.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../public/css/favoris.css">
     <title>Document</title>
 </head>
 <body>
-
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
+        </a>
+        <div class="bar-search">
+            <div class="container_filter-icon">
+                <img class="filter-icon" src="../assets/img/filter_icon.svg" alt="recherche avancée">
+            </div>
+        </div>
+        <nav class="header__nav"> 
+            <a href="#">Accueil</a>
+            <a href="#">Article</a>
+            <a href="#">Véhicules</a>
+            <a href="#">FAQ</a>
+        </nav>  
+        <div class="header__container_right">
+            <div class="header__container-avatar">
+                <div class="avatar">
+                    <a href="profil?">
+                        <img src="https://picsum.photos/60/60" alt="">
+                    </a>
+                </div>
+                <div class="icon-deconnexion">
+                   <a href="#">
+                    <img src="../assets/img/deconnexion_icon.svg" alt="icon déconnexion">
+                   </a> 
+                </div>
+            </div>
+            <div class="header__container_btn-inscription">
+                <div class="btn-inscription">
+                    <a href="../html/inscription.html">
+                        <img src="../assets/img/baseline-create_icon.svg" alt="icone création d'un compte">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <header></header>
+    <main class="main">
+        <div class="container_favoris-cards" id="carte">
+           
+        </div>
+        </div>
+    </main>
+    <script src="../js/favoris.js"></script>
 </body>
 </html>
