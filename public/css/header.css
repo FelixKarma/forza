@@ -44,6 +44,15 @@
     gap: 68px;
 }
 
+.header__nav a {
+    color: #4B5563;
+    transition: all .2s ease-in-out;
+}
+
+.header__nav a:hover {
+    color: #fff;
+}
+
 .header__container-avatar {
     position: relative;
     width: fit-content;
