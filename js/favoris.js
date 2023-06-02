@@ -1,7 +1,7 @@
 const voitures = [
     {
       nom: "Ferrari 458 Italia",
-      image: "ferrari458.jpg",
+      image: "../assets/img/porsche70.jpeg",
       prix: 250000,
       caracteristiques: ["Vitesse maximale: 325 km/h", "Accélération: 0-100 km/h en 3,4 secondes"]
     },
@@ -28,6 +28,7 @@ const voitures = [
     const prix = document.createElement("p");
     const caracteristiques = document.createElement("ul");
     const vitessemax = document.createElement("p");
+    const performance = document.createElement("p")
 
     carte.classList.add("carte");
     image.classList.add("carte-image");
@@ -35,6 +36,7 @@ const voitures = [
     prix.classList.add("carte-prix");
     caracteristiques.classList.add("carte-caracteristiques");
     vitessemax.classList.add("carte-vitessemax")
+    performance.classList.add("carte-performance")
     // Définissez les valeurs et attributs des éléments HTML
     image.src = voiture.image;
     nom.textContent = voiture.nom;
