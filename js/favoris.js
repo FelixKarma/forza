@@ -30,6 +30,7 @@ const voitures = [
     const vitessemax = document.createElement("p");
     const performance = document.createElement("p")
 
+
     carte.classList.add("carte");
     image.classList.add("carte-image");
     nom.classList.add("carte-nom");
