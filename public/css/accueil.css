@@ -4,6 +4,37 @@
     background: no repeat url("/assets/img/background_home.png");
 }
 
+.background_tache1 {
+    position: absolute;
+    z-index: -1;
+    bottom: 100px;
+}
+
+.background_tache2 {
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+    top: 60%;
+}
+.background_tache3 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.background_tache4 {
+    position: absolute;
+    z-index: -1;
+    top: 220%;
+    right: 10%;
+}
+.background_tache5 {
+    position: absolute;
+    z-index: -1;
+    top: 320%;
+    right: 10%;
+}
+
 .section_hero {
     padding: 100px 125px;
     display: flex;
@@ -142,8 +173,9 @@
 
 .card_maj {
     display: flex;
-    margin: 30px 220px;
-    gap: 135px;
+    margin: 50px 220px;
+    justify-content: space-between;
+    gap: 150px;
 }
 
 .pair {
@@ -155,8 +187,12 @@
     font-size: 25px;
     line-height: 150%;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
+}
+
+.rate_title {
+    text-align: center;
 }
 
 .maj_subtitle {
@@ -174,7 +210,6 @@
     line-height: 150%;
     text-align: justify;
     color: #C0C0C0;
-    width: 381.33px;
 }
 
 .ctn_content_maj {
@@ -182,6 +217,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 400px;
 }
 
 .ctn_rate {
@@ -208,7 +244,7 @@
 
 .tworate {
     position: relative;
-    bottom: -80px;
+    bottom: -50px;
     /* transform: translateY(80px); */
 }
 
@@ -246,4 +282,11 @@
 
 .section_populaire {
     margin: 200px 0;
+}
+
+.features_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
