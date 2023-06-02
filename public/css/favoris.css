@@ -22,25 +22,24 @@
     margin: 20px;
 }
 
-.carte-prix {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 45px;
-text-align: justify;
-
+.carte {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.carte-vitessemax {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+.carte-image {
+    width: 200px;
+}
 
-text-align: center;
+.carte-prix {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: justify;
 }
 
 .carte-caracteristiques {
@@ -53,6 +52,3 @@ text-align: center;
     list-style: none;
 }
 
-.carte-image {
-    width: 200px;
-}

@@ -34,6 +34,12 @@
     top: 320%;
     right: 10%;
 }
+.background_tache6 {
+    position: absolute;
+    z-index: -1;
+    top: 320%;
+    right: 10%;
+}
 
 .section_hero {
     padding: 100px 125px;
