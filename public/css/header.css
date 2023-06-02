@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
 
 .header {
     display: flex;
@@ -42,6 +42,15 @@
 .header__nav {
     display: flex;
     gap: 68px;
+}
+
+.header__nav a {
+    color: #4B5563;
+    transition: all .2s ease-in-out;
+}
+
+.header__nav a:hover {
+    color: #fff;
 }
 
 .header__container-avatar {

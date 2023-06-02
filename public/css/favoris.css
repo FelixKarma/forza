@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
+
 .main {
     background: #b0b0b0;
     height: 100vh;
@@ -20,23 +22,33 @@
     margin: 20px;
 }
 
+.carte {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carte-image {
+    width: 200px;
+}
+
 .carte-prix {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 45px;
-text-align: justify;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: justify;
 }
 
-.carte-vitessemax {
+.carte-caracteristiques {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
-
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    list-style: none;
 }
+

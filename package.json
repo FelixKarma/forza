@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "vanilla-tilt": "^1.8.0"
+  },
+  "name": "forza",
+  "description": "Développement d'un site de référencement automobiles sur Forza Horizon 5. \r ![logo_carhorizon](https://github.com/FelixKarma/forza/assets/109823552/2b5957e5-e3e1-4657-a780-cf3966ad9ea1)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixKarma/forza.git"
+  },
+  "author": "teamdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixKarma/forza/issues"
+  },
+  "homepage": "https://github.com/FelixKarma/forza#readme"
+}
