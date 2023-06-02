@@ -1,4 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
+
 .main {
     background: no repeat url("/assets/img/background_home.png");
-    height: 100vh;
+}
+
+.section_hero {
+    padding: 100px 125px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.hero_content {
+    height: 483px;
+    width: 588px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero_title {
+    font-family: 'Bungee Spice', 'Lilita One', 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background: linear-gradient(104.06deg, #EC1D88 30.36%, #6BBCEE 93.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.hero_para {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    text-align: justify;
+}
+
+.hero_ctn_btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.btn {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 179px;
+    height: 64px;
+    background: #6BBCEE;
+    border-radius: 9.6px;
+
+}
+
+.btn_sub {
+    border: 1px solid #6BBCEE;
+    background: transparent;
+}
+
+.btn_sub:hover {
+    background: #6BBCEE;
+}
+
+.btn_more:hover {
+    border: 1px solid #6BBCEE;
+    background: transparent;
+}
+
+
+.btn a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.img_h {
+    border-radius: 10px;
+}
+
+.section_bestcarsaison {
+    margin: 150px 125px;
+    gap: 56px;
+    background: linear-gradient(180deg, rgba(142, 142, 142, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+}
+
+.ctn_pad {
+    padding: 50px 100px 150px 100px;
+    text-align: center;
+}
+
+.ctn_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+.sub-title, .maj_title {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.card {
+    padding: 10px 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.title_car_best {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section_maj {
+    padding: 80px 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_maj {
+    display: flex;
+    margin: 30px 220px;
+    gap: 135px;
+}
+
+.pair {
+    flex-direction: row-reverse;
+}
+
+.title_maj, .rate_title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.maj_subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 590px;
+    color: #C0C0C0;
+    margin-bottom: 80px;
+}
+
+.content_maj {
+    font-size: 15.8889px;
+    line-height: 150%;
+    text-align: justify;
+    color: #C0C0C0;
+    width: 381.33px;
+}
+
+.ctn_content_maj {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctn_rate {
+    padding: 70px;
+    margin: 100px 125px;
+    background: linear-gradient(180deg, rgba(142, 142, 142, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+}
+
+.place {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.first {
+    position: absolute;
+    width: 70px;
+    transform: translateX(-40px);
+}
+
+.tworate {
+    position: relative;
+    bottom: -80px;
+    /* transform: translateY(80px); */
+}
+
+.threerate {
+    position: relative;
+    bottom: -120px;
+}
+
+.rate_cards {
+    flex-wrap: nowrap;
+    margin: 0px 0px 90px 0px;
+}
+
+.card_popu {
+    padding: 10px 12px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.twopopu {
+    position: relative;
+    bottom: -30px;
+}
+
+.threepopu {
+    position: relative;
+    bottom: -60px;
+}
+
+.fourpopu {
+    position: relative;
+    bottom: -90px;
+}
+
+.section_populaire {
+    margin: 200px 0;
 }
