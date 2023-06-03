@@ -1,0 +1,29 @@
+body {background-color: black;
+background-image: ""
+}
+
+h1 {color: #6BBCEE;
+    text-align: center;
+}
+
+h2, h2 {color: #EC1D88;
+    text-align: center;
+}
+
+figure {color: yellow;
+    text-align: center ;
+}
+
+button {
+    background-color: #EC1D88;
+    color: #6BBCEE;
+    border: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 10%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
