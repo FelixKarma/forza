@@ -67,11 +67,12 @@
 
     <h2>Saison 20:"Haute Performance"</h2>
 
-
+    
     <div class="card" style="margin-left: 200px;">
         <div class="card-body">
             <figure>
-                <img src="../assets/projet_formation/Lamborghini_Huracan_STO.jpeg" .jpeg" height="300">
+                <img src="../assets/projet_formation/Lamborghini_Huracan_STO.jpeg" height="300" 
+                onclick="afficherModalJSON('Lamborghini Huracan STO 2020');">
                 <br>
                 <figcaption>Lamborghini Huracan STO 2020</figcaption>
             </figure>
@@ -83,7 +84,8 @@
         <div class="card" style="margin-top: -100px;">
             <div class="card-body">
                 <figure>
-                    <img src="../assets/projet_formation/Porsche_70_935.jpeg" height="300">
+                    <img src="../assets/projet_formation/Porsche_70_935.jpeg" height="300" 
+                    onclick="afficherModalJSON('Porsche #70 Porsche Motorsport 935 2019');">
                     <br>
                     <figcaption>Porsche #70 Porsche Motorsport 935 2019</figcaption>
                 </figure>
@@ -94,7 +96,8 @@
         <div class="card" style="margin-top:200px;">
             <div class="card-body">
                 <figure>
-                    <img src="../assets/projet_formation/Audi_RS6.jpeg" height="300">
+                    <img src="../assets/projet_formation/Audi_RS6.jpeg" height="300" 
+                    onclick="afficherModalJSON('Audi RS6 Avant 2021');">
                     <br>
                     <figcaption>Audi RS6 Avant 2021</figcaption>
                 </figure>
@@ -106,7 +109,8 @@
     <div class="card" style="margin-left: -200px; margin-top: -100px;">
         <div class="card-body">
             <figure>
-                <img src="../assets/projet_formation/Porsche_Mission_R.jpeg" height="300">
+                <img src="../assets/projet_formation/Porsche_Mission_R.jpeg" height="300" 
+                onclick="afficherModalJSON('Porsche Mission R 2022');">
                 <br>
                 <figcaption>Porsche Mission R 2022</figcaption>
             </figure>
@@ -120,7 +124,8 @@
     <div class="card" style="margin-left: 200px;">
         <div class="card-body">
             <figure>
-                <img src="../assets/projet_formation/Rimac_Nevera.jpeg" height="300">
+                <img src="../assets/projet_formation/Rimac_Nevera.jpeg" height="300" 
+                onclick="afficherModalJSON('Rimac Nevera 2021');">
                 <br>
                 <figcaption>Rimac Nevera 2021</figcaption>
             </figure>
@@ -132,7 +137,8 @@
         <div class="card" style="margin-top: -100px;">
             <div class="card-body">
                 <figure>
-                    <img src="../assets/projet_formation/Cadillac_CT5-V.jpeg" height="300">
+                    <img src="../assets/projet_formation/Cadillac_CT5-V.jpeg" height="300" 
+                    onclick="afficherModalJSON('Cadillac CT5-V Blackwing 2022');">
                     <br>
                     <figcaption>Cadillac CT5-V Blackwing 2022</figcaption>
                 </figure>
@@ -143,27 +149,31 @@
         <div class="card" style="margin-top:200px;">
             <div class="card-body">
                 <figure>
-                    <img src="../assets/projet_formation/Lexus_LC_500.jpeg" height="300">
+                    <img src="../assets/projet_formation/Lexus_LC_500.jpeg" height="300" 
+                    onclick="afficherModalJSON('Lexus LC 500 2021');">
                     <br>
                     <figcaption>Lexus LC 500 2021</figcaption>
                 </figure>
             </div>
         </div>
-        <br>
     </div>
+    <br>
+    
         <div class="card" style="margin-left: -200px; margin-top: -100px;">
             <div class="card-body">
                 <figure>
-                    <img src="../assets/projet_formation/Cadillac_CT4-V.jpeg" height="300">
+                    <img src="../assets/projet_formation/Cadillac_CT4-V.jpeg" height="300" 
+                    onclick="afficherModalJSON('Cadillac CT4-V Blackwing 2022');">
                     <br>
                     <figcaption>Cadillac CT4-V Blackwing 2022</figcaption>
-                </figure>
+                <button onclick="ajouterAuxFavoris('Cadillac CT4-V Blackwing 2022')">Ajouter au Favoris</button>
+            </figure>     
             </div>
         </div>
         <br>
         <br>
 
-        <figure><a href="../html/FH page 2 html.html"><button>Page Suivante</button></a></figure>
+        <figure>page<a href="../html/FH page 2 html.html"><button> >> </button></a></figure>
 
         <div id="popupCars"></div>
 
@@ -195,5 +205,7 @@
     </div>
     <p>© 2023 TeamDev. All Rights Reserved.</p>
 </footer>
+
+<script src="../js/FH js.js"></script>
 
 </html>
