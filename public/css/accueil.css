@@ -4,6 +4,42 @@
     background: no repeat url("/assets/img/background_home.png");
 }
 
+.background_tache1 {
+    position: absolute;
+    z-index: -1;
+    bottom: 100px;
+}
+
+.background_tache2 {
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+    top: 60%;
+}
+.background_tache3 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.background_tache4 {
+    position: absolute;
+    z-index: -1;
+    top: 220%;
+    right: 10%;
+}
+.background_tache5 {
+    position: absolute;
+    z-index: -1;
+    top: 320%;
+    right: 10%;
+}
+.background_tache6 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
 .section_hero {
     padding: 100px 125px;
     display: flex;
@@ -37,6 +73,25 @@
     color: #FFFFFF;
     margin-bottom: 48px;
     text-align: justify;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+.hero_img video {
+    height: 400px;
+}
+
+.hero_img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hero_ctn_btn {
@@ -84,24 +139,23 @@
 }
 
 .section_bestcarsaison {
-    margin: 150px 125px;
-    gap: 56px;
+
+}
+
+.ctn_pad {
+    margin: 100px 125px;
+    text-align: center;
     background: linear-gradient(180deg, rgba(142, 142, 142, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);
     border-radius: 6px;
-}
-
-.ctn_pad {
-    padding: 50px 100px 150px 100px;
-    text-align: center;
+    padding: 50px 0 150px 0;
 }
 
 .ctn_cards {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 5px;
 }
 
@@ -117,7 +171,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     background: rgba(255, 255, 255, 0.2);
     border-radius: 6px;
-    max-width: 280px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     backdrop-filter: blur(14px);
@@ -142,8 +196,9 @@
 
 .card_maj {
     display: flex;
-    margin: 30px 220px;
-    gap: 135px;
+    margin: 50px 220px;
+    justify-content: space-between;
+    gap: 150px;
 }
 
 .pair {
@@ -155,8 +210,12 @@
     font-size: 25px;
     line-height: 150%;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
+}
+
+.rate_title {
+    text-align: center;
 }
 
 .maj_subtitle {
@@ -174,7 +233,6 @@
     line-height: 150%;
     text-align: justify;
     color: #C0C0C0;
-    width: 381.33px;
 }
 
 .ctn_content_maj {
@@ -182,6 +240,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 400px;
 }
 
 .ctn_rate {
@@ -208,7 +267,7 @@
 
 .tworate {
     position: relative;
-    bottom: -80px;
+    bottom: -50px;
     /* transform: translateY(80px); */
 }
 
@@ -246,4 +305,11 @@
 
 .section_populaire {
     margin: 200px 0;
+}
+
+.features_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
