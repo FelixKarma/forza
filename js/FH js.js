@@ -23,8 +23,9 @@ async function afficherModalJSON(carName) {
   modalContentDiv.style.textAlign = "center";
   modalContentDiv.style.fontSize = "20px";
   modalContentDiv.style.margin = "5% auto";
-  modalContentDiv.style.padding = "1px";
+  modalContentDiv.style.padding = "20px";
   modalContentDiv.style.width = "23%";
+  modalContentDiv.style.borderRadius = "10px";
 
   for (const car of cars) {
 
