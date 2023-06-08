@@ -21,3 +21,9 @@ input,select{vertical-align: middle;}
 .page {
     background: linear-gradient(176.22deg, #000000 0%, rgba(46, 46, 46, 0.8) 100%);
 }
+
+.current {
+    color: #111827;
+    font-weight: 600;
+    font-size: 14px;
+}
