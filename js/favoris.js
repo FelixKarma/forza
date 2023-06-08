@@ -77,7 +77,7 @@ const voitures = [
     // Définissez les valeurs et attributs des éléments HTML
     image.src = voiture.image;
     nom.textContent = voiture.nom;
-    prix.textContent = "Prix: " + voiture.prix + " C";
+    prix.textContent = "Prix: " + voiture.prix + " Cr";
   
     voiture.caracteristiques.forEach(caracteristique => {
       const li = document.createElement("li");
