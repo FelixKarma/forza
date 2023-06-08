@@ -1,14 +1,50 @@
 const voitures = [
     {
-      nom: "Ferrari 458 Italia",
+      nom: "Porsche Motorsport 935",
       image: "../assets/img/porsche70.jpeg",
       prix: 250000,
       caracteristiques: ["Vitesse maximale: 325 km/h", "Accélération: 0-100 km/h en 3,4 secondes"]
     },
     {
-      nom: "Lamborghini Aventador",
-      image: "aventador.jpg",
-      prix: 350000,
+      nom: "Lamborghini huracan sto",
+      image: "../assets/projet_formation/Lamborghini_Huracan_STO.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Audi RS6",
+      image: "../assets/projet_formation/Audi_RS6.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Audi quattro",
+      image: "../assets/projet_formation/Audi_Quattro.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Toyota MR2 GT",
+      image: "../assets/projet_formation/Toyota_MR2_GT.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Toyota sports 800",
+      image: "../assets/projet_formation/Toyota_sports_800.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Nissan GT-R Nismo",
+      image: "../assets/projet_formation/nissan_GT-R_Nismo.jpeg",
+      prix: 250000,
+      caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
+    },
+    {
+      nom: "Lexus LC 500",
+      image: "../assets/projet_formation/Lexus_LC_500.jpeg",
+      prix: 250000,
       caracteristiques: ["Vitesse maximale: 350 km/h", "Accélération: 0-100 km/h en 2,9 secondes"]
     },
     // Ajoutez d'autres objets pour d'autres voitures
