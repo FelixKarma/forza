@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
+
+.hero__section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img_hero {
+    width: 50vw;
+}
+.body_logo{
+    width: 242px;
+    height: 196px;
+    margin-top: 73px;  
+}
+.tache{
+    position: absolute;
+    z-index: -1;
+}
+.hero_img {
+    width: 50%;
+}
+.hero__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+.title_inscription {
+    color: #fff;
+    font-size: 32px;
+}
+
+.form_inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px 0px 80px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+input::placeholder {
+    font-family: 'Poppins', 'Arial' serif;
+    font-size: 12px;
+}
+input {
+    width: 351px;
+    height: 48px;
+    background: #F8F8F8;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+input[type="password"] {
+    margin-bottom: 50px;
+}
+
+.btn_inscription {
+    width: 183px;
+    height: 48px;
+    background: #5B5B5B;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    margin: auto;
+}
+
+.container_email, .container_password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+
+.separator {
+    width: 223px;
+    height: 0px;
+    border: 1px solid #C9C9C9;
+}
+
+.or {
+    font-size: 14px;
+    color: #C9C9C9;
+}
+
+.container_separator {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 42px 0;
+}
+
+.btn_inscription_google {
+    width: 183px;
+    height: 48px;
+    background: #5B5B5B;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+    justify-content: space-around;
+}
+.btn_inscription_google#text {
+    word-wrap: break-word;
+}
