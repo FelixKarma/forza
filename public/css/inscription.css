@@ -40,9 +40,10 @@ label {
 }
 
 input::placeholder {
-    font-family: 'Poppins', 'Arial' serif;
+    font-family: 'Poppins', 'Arial'serif;
     font-size: 12px;
 }
+
 input {
     width: 351px;
     height: 48px;
@@ -67,7 +68,8 @@ input[type="password"] {
     margin: auto;
 }
 
-.container_email, .container_password {
+.container_email,
+.container_password {
     display: flex;
     flex-direction: column;
     margin-bottom: 19px;
@@ -106,7 +108,7 @@ input[type="password"] {
     padding: 13px;
     justify-content: space-around;
 }
+
 .btn_inscription_google#text {
     word-wrap: break-word;
 }
-

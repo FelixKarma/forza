@@ -27,7 +27,7 @@
 }
 
 .footer__nav {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 24px;
 }
@@ -56,6 +56,6 @@
 }
 
 .container_social a img:hover {
-    background:  #fff;
+    background: #fff;
     border-radius: 50%;
 }

@@ -1,116 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" type="text/css" href="../public/css/base.css">
     <link rel="stylesheet" type="text/css" href="../public/css/header.css">
     <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
     <link rel="stylesheet" type="text/css" href="../public/css/connexion.css">
-    
+
     <title>Connexion</title>
 </head>
 
-    <body class="page">
-        <header class="header">
-            <a href="index.html">
-                <img class="logo" src="../assets/img/logo_carhorizon.png" alt="logo carhorizon">
-            </a>
-            <div class="bar-search">
-                <div class="container_filter-icon">
-                    <img class="filter-icon" src="../assets/img/filter_icon.svg" alt="recherche avancée">
+<body class="page">
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="../assets/img/logo_carhorizon.png" alt="logo carhorizon">
+        </a>
+        <div class="bar-search">
+            <div class="container_filter-icon">
+                <img class="filter-icon" src="../assets/img/filter_icon.svg" alt="recherche avancée">
+            </div>
+        </div>
+        <nav class="header__nav">
+            <a href="../index.html">Accueil</a>
+            <a href="../html/article.html">Article</a>
+            <a href="../html/FH page 1 html.html">Véhicules</a>
+            <a href="../html/FAQ.html">FAQ</a>
+        </nav>
+        <div class="header__container_right">
+            <div class="header__container-avatar">
+                <div class="avatar">
+                    <a href="profil?">
+                        <img src="https://picsum.photos/60/60" alt="">
+                    </a>
+                </div>
+                <div class="icon-deconnexion">
+                    <a href="#">
+                        <img src="../assets/img/deconnexion_icon.svg" alt="icon déconnexion">
+                    </a>
                 </div>
             </div>
-            <nav class="header__nav">
+            <div class="header__container_btn-inscription">
+                <div class="btn-inscription">
+                    <a href="../html/inscription.html">
+                        <img src="../assets/img/baseline-create_icon.svg" alt="icone création d'un compte">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <img src="../assets/img/grossetacheROSE.png" alt="" class="tache">
+        <section class="hero__section">
+            <div class="hero__img">
+                <img class="img_hero" src="../assets/img/img_mclaren.png" alt="mc laren">
+            </div>
+            <div class="hero__form">
+                <img class="body_logo" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
+                <h1 class="title_inscription">S'identifier</h1>
+                <form class="form_inscription" action="post">
+                    <div class="container_email">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail">
+                    </div>
+                    <div class="container_password">
+                        <label for="key">Mot de passe</label>
+                        <input type="password" id="key" name="key">
+                    </div>
+                    <button type="submit" class="btn_inscription">Se connecter</button>
+                    <div class="container_separator">
+                        <div class="separator"></div>
+                        <p class="or">or</p>
+                        <div class="separator"></div>
+                    </div>
+                </form>
+                <button class="btn_inscription_google"><img src="../assets/img/google-icon.svg" alt="google icon">Se
+                    connecter avec <br> Google</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container_footer">
+            <a href="../index.html">
+                <img class="logo_footer" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
+            </a>
+            <nav class="footer__nav">
                 <a href="../index.html">Accueil</a>
-                <a href="../html/article.html">Article</a>
                 <a href="../html/FH page 1 html.html">Véhicules</a>
+                <a href="#">Mon espace</a>
+                <a href="../html/FAQ.html#form">Contact</a>
                 <a href="../html/FAQ.html">FAQ</a>
             </nav>
-            <div class="header__container_right">
-                <div class="header__container-avatar">
-                    <div class="avatar">
-                        <a href="profil?">
-                            <img src="https://picsum.photos/60/60" alt="">
-                        </a>
-                    </div>
-                    <div class="icon-deconnexion">
-                        <a href="#">
-                            <img src="../assets/img/deconnexion_icon.svg" alt="icon déconnexion">
-                        </a>
-                    </div>
-                </div>
-                <div class="header__container_btn-inscription">
-                    <div class="btn-inscription">
-                        <a href="../html/inscription.html">
-                            <img src="../assets/img/baseline-create_icon.svg" alt="icone création d'un compte">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <main class="main">
-            <img src="../assets/img/grossetacheROSE.png" alt="" class="tache">
-            <section class="hero__section">
-                <div class="hero__img">
-                    <img class="img_hero" src="../assets/img/img_mclaren.png" alt="mc laren">
-                </div>
-                <div class="hero__form">
-                    <img class="body_logo" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
-                    <h1 class="title_inscription">S'identifier</h1>
-                    <form class="form_inscription" action="post">
-                        <div class="container_email">
-                            <label for="mail">Email</label>
-                            <input type="email" id="mail" name="mail">
-                        </div>
-                        <div class="container_password">
-                            <label for="key">Mot de passe</label>
-                            <input type="password" id="key" name="key">
-                        </div>
-                        <button type="submit" class="btn_inscription">Se connecter</button>
-                        <div class="container_separator">
-                            <div class="separator"></div>
-                            <p class="or">or</p>
-                            <div class="separator"></div>
-                        </div>
-                    </form>
-                    <button class="btn_inscription_google"><img src="../assets/img/google-icon.svg"
-                            alt="google icon">Se connecter avec <br> Google</button>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container_footer">
-                <a href="../index.html">
-                    <img class="logo_footer" src="../assets/img/logo_carhorizon.svg" alt="logo carhorizon">
+            <div class="container_social">
+                <a href="tiktok.com">
+                    <img src="../assets/img/tiktok-fill.svg" alt="tiktok icon">
                 </a>
-                <nav class="footer__nav">
-                    <a href="../index.html">Accueil</a>
-                    <a href="../html/FH page 1 html.html">Véhicules</a>
-                    <a href="#">Mon espace</a>
-                    <a href="../html/FAQ.html#form">Contact</a>
-                    <a href="../html/FAQ.html">FAQ</a>
-                </nav>
-                <div class="container_social">
-                    <a href="tiktok.com">
-                        <img src="../assets/img/tiktok-fill.svg" alt="tiktok icon">
-                    </a>
-                    <a href="instagram.com">
-                        <img src="../assets/img/iconsInstagram.svg" alt="instagram icon">
-                    </a>
-                    <a href="snapchat.com">
-                        <img src="../assets/img/snapchat-fill.svg" alt="snapchat icon">
-                    </a>
-                </div>
+                <a href="instagram.com">
+                    <img src="../assets/img/iconsInstagram.svg" alt="instagram icon">
+                </a>
+                <a href="snapchat.com">
+                    <img src="../assets/img/snapchat-fill.svg" alt="snapchat icon">
+                </a>
             </div>
-            <p>© 2023 TeamDev. All Rights Reserved.</p>
-        </footer>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
-    
-    </html>
-    
+        </div>
+        <p>© 2023 TeamDev. All Rights Reserved.</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
+
 </html>

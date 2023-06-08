@@ -16,6 +16,7 @@
     right: 20%;
     top: 60%;
 }
+
 .background_tache3 {
     position: absolute;
     z-index: -1;
@@ -28,12 +29,14 @@
     top: 220%;
     right: 10%;
 }
+
 .background_tache5 {
     position: absolute;
     z-index: -1;
     top: 320%;
     right: 10%;
 }
+
 .background_tache6 {
     position: absolute;
     z-index: -1;
@@ -88,7 +91,7 @@
 }
 
 .hero_img {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -138,9 +141,7 @@
     border-radius: 10px;
 }
 
-.section_bestcarsaison {
-
-}
+.section_bestcarsaison {}
 
 .ctn_pad {
     margin: 100px 125px;
@@ -160,7 +161,8 @@
 }
 
 
-.sub-title, .maj_title {
+.sub-title,
+.maj_title {
     font-size: 45px;
     color: #fff;
     margin-bottom: 25px;
@@ -205,7 +207,8 @@
     flex-direction: row-reverse;
 }
 
-.title_maj, .rate_title {
+.title_maj,
+.rate_title {
     font-weight: 600;
     font-size: 25px;
     line-height: 150%;
@@ -236,7 +239,7 @@
 }
 
 .ctn_content_maj {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;

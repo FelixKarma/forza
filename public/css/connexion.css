@@ -8,18 +8,22 @@
 .img_hero {
     width: 50vw;
 }
-.body_logo{
+
+.body_logo {
     width: 242px;
     height: 196px;
-    margin-top: 73px;  
+    margin-top: 73px;
 }
-.tache{
+
+.tache {
     position: absolute;
     z-index: -1;
 }
+
 .hero_img {
     width: 50%;
 }
+
 .hero__form {
     display: flex;
     flex-direction: column;
@@ -49,9 +53,10 @@ label {
 }
 
 input::placeholder {
-    font-family: 'Poppins', 'Arial' serif;
+    font-family: 'Poppins', 'Arial'serif;
     font-size: 12px;
 }
+
 input {
     width: 351px;
     height: 48px;
@@ -76,7 +81,8 @@ input[type="password"] {
     margin: auto;
 }
 
-.container_email, .container_password {
+.container_email,
+.container_password {
     display: flex;
     flex-direction: column;
     margin-bottom: 19px;
@@ -115,6 +121,7 @@ input[type="password"] {
     padding: 13px;
     justify-content: space-around;
 }
+
 .btn_inscription_google#text {
     word-wrap: break-word;
 }

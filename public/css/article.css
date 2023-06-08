@@ -22,7 +22,7 @@
 
 .section_hero {
     height: fit-content;
-    margin: 0px 350px ;
+    margin: 0px 350px;
 }
 
 .title {
@@ -59,6 +59,7 @@ p {
     margin-bottom: 127px;
     gap: 34px;
 }
+
 h2 {
     margin-bottom: 15px;
     text-align: justify;
@@ -71,6 +72,6 @@ li {
 }
 
 .bug {
-    margin: 108px 0;;
+    margin: 108px 0;
+    ;
 }
-
