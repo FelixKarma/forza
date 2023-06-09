@@ -65,3 +65,21 @@
     border-radius: 10px;
     margin: 30px 0 100px 0;
 }
+
+#gif-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* S'assurer que le conteneur se trouve au-dessus de tout le reste */
+  }
+  
+  #gif-container img {
+    max-height: 80vh; /* Taille maximale de l'image pour éviter un débordement */
+    max-width: 80vw;
+  }
+

@@ -32,3 +32,12 @@ questionItems.forEach(function (item) {
 		parent.classList.toggle("show-answer");
 	});
 });
+
+// affichage message lors de la soumission du formualire de contact
+document.querySelector('.formulaire').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche la soumission du formulaire
+
+    // Affiche le message de confirmation
+    document.getElementById('confirmation_message').style.display = 'block';
+    document.getElementById('confirmation_message').style.color = 'green';
+});

@@ -124,6 +124,6 @@ ScrollTrigger.create({
 ScrollTrigger.create({
 	trigger: ".section_populaire",
 	start: "top top",
-	end: "+=400px",
+	end: "+=600px",
 	pin: true,
 });
